@@ -1,5 +1,4 @@
-import game
-import Narrative
+from game import Game
 
-app = game.new_game()
-app.main()
+app = Game()
+app.start()

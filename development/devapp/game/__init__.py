@@ -1,5 +1,2 @@
-from .Game import Game
-
-def new_game():
-    new_game = Game()
-    return new_game
+from .game import Game
+from .main import run, start
